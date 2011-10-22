@@ -1,0 +1,19 @@
+apache2logpy is a collection of Python scripts to do regex parsing of apache2 log output
+It is tailored towards custom log formats.
+If this project does nothing other than quickly demonstrate regex examples then all good.
+
+http://creativecommons.org/licenses/by-sa/2.0/uk/
+http://identi.ca/gnubyexample
+
+extra-keepalive-before-after.py
+-------------------------------
+
+Produces output like this:
+404 404 208 184 433 194 - 0 
+200 200 522 285 844 77454 - 1 
+200 200 522 285 844 425 - 2  Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+
+From input like this:
+www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:03 +0000] "GET /robots.txt" 404 404 208 184 433 194 - 0 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:04 +0000] "GET /index.html" 200 200 522 285 844 77454 - 1 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:05 +0000] "GET /index.html" 200 200 522 285 844 425 - 2 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
