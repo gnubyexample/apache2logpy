@@ -17,3 +17,9 @@ From input like this:
 www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:03 +0000] "GET /robots.txt" 404 404 208 184 433 194 - 0 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
 www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:04 +0000] "GET /index.html" 200 200 522 285 844 77454 - 1 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
 www.nix4.com 93.158.147.8 - - [22/Oct/2011:17:43:05 +0000] "GET /index.html" 200 200 522 285 844 425 - 2 "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+
+
+apache2 error log output - links
+--------------------------------
+http://www.librelogiciel.com/software/ScanErrLog/Try
+http://packages.debian.org/squeeze/scanerrlog
